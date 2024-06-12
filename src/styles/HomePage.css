@@ -1,0 +1,28 @@
+.homePage{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 14px;
+    align-items: center;
+    min-height: unset;
+}
+
+.homePage button{
+    margin-top: 7px;
+}
+
+.homePage_2{
+    min-height: unset;
+}
+
+.homePage_2 .homePage_2-content{
+    display: flex;
+    gap: 14px;
+}
+
+.homePage_2 .homePage_2-content p{
+    margin-bottom: 16px;
+}
+
+.homePage_2 .homePage_2-content p:last-child{
+    margin-bottom: 0;
+}

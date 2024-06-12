@@ -1,0 +1,127 @@
+:root{
+  --color-primary: #ea8f1d;
+  --color-btn-primary: #8a4d16;
+  --color-btn-text-primary: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: #171717;
+  color: #ffffff;
+  line-height: 1.6;
+  position: relative;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background: radial-gradient(ellipse at bottom, #350600 0%, #000000 100%)
+}
+
+h1.title_page {	
+  font-size: 32px; 
+  font-weight: 600;
+}
+
+section{
+  min-height: calc(100vh - 146px);
+  padding-bottom: 50px;
+}
+
+footer{
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.color{
+  color: #ea8f1d;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button.btn-primary{
+  padding: 14px 28px;
+  background-color: var(--color-primary);
+  color: #fff !important;
+  border-radius: 0 25px;
+  -webkit-border-radius: 0px 25px 0px 25px;
+  -moz-border-radius: 0px 25px 0px 25px;
+  -ms-border-radius: 0px 25px 0px 25px;
+  -o-border-radius: 0px 25px 0px 25px;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+button.btn-primary:hover{
+  background-color: #ea8f1d;
+  box-shadow: 1px 1px 15px #8a4d16;
+}
+
+h2.title {
+  margin-bottom: 25px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.txt-reverse{
+  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+h2.title-reverse {
+  margin-bottom: 25px;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+h2.title::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  background-color: var(--color-primary);
+  height: 2px;
+  transition: .3s ease-in-out;
+}
+
+h2.title:hover::before {
+  width: 100%;
+}
+
+h2.title-reverse::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  background-color: var(--color-primary);
+  height: 2px;
+  right: 0;
+}
+
+p.description-txt{
+  max-width: 800px;
+}
+
+.txt-reverse{
+  text-align: end;
+}
+
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
