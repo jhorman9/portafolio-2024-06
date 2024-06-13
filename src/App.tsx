@@ -1,8 +1,8 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import './styles/App.css';
 import './styles/lines.css';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
+import { Header } from './components/HeaderComponents/Header';
+import { Footer } from './components/FooterComponents/Footer';
 import { HomePage } from './pages/HomePages/HomePage';
 import { AboutPages } from './pages/AboutPages/AboutPages';
 import { ProjectsPage } from './pages/ProjectsPages/ProjectsPage';

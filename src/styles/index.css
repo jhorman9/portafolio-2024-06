@@ -26,6 +26,7 @@ body {
 h1.title_page {	
   font-size: 32px; 
   font-weight: 600;
+  line-height: 1;
 }
 
 section{

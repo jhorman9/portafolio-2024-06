@@ -8,6 +8,21 @@ footer{
     gap: 14px;
 }
 
+@media (max-width: 768px) {
+    footer{
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 575px) {
+    footer{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
 footer img{
     height: auto;
 }
@@ -15,5 +30,4 @@ footer img{
 footer ul{
     padding: 0;
     list-style: none;
-    
 }
