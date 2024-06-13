@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
+
 }
 
 body {
@@ -20,7 +21,28 @@ body {
   position: relative;
   font-family: sans-serif;
   overflow-x: hidden;
-  background: radial-gradient(ellipse at bottom, #350600 0%, #000000 100%)
+  background: radial-gradient(ellipse at bottom, #350600 0%, #000000 100%);
+  scrollbar-color: #350600 #f1f1f1;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #350600;
+  border-radius: 10px;
+  border: 2px solid var(--color-primary);
+}
+
+*::-webkit-scrollbar-corner {
+  background: #f1f1f1;
 }
 
 h1.title_page {	

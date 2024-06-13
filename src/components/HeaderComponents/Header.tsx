@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import '../../styles/header.css';
 import logoPNG from '../../assets/images/logo/logo-jhorman-nieto.png';
 import useWindowDimensions from "../../hooks/useWindowDimensions";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
 
@@ -9,9 +10,9 @@ export const Header = () => {
 
   return (
     <header>
-      <div className="logo">
+      <Link to='/' className="logo">
         <img src={logoPNG} loading="eager" width={100} height={100} title="logo" alt="react logo" />
-      </div>
+      </Link>
       {
         width < 768 ?
         <svg viewBox="0 0 100 80" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +27,7 @@ export const Header = () => {
               <NavLink className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} to="/">INICIO</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} to="/about">SOBRE MI</NavLink>
+              <NavLink className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} to="/about">SOBRE M&#205;</NavLink>
             </li>
             <li>
               <NavLink className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} to="/projects">PORTAFOLIO</NavLink>
