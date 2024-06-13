@@ -1,7 +1,8 @@
 .homePage{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 14px;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
     align-items: center;
     min-height: unset;
 }
@@ -38,7 +39,8 @@
 .homePage_2 .homePage_2-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 14px;
+    -moz-column-gap: 14px;
+         column-gap: 14px;
 }
 
 @media (max-width: 768px) {

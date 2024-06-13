@@ -47,15 +47,15 @@ button.btn-primary{
   padding: 14px 28px;
   background-color: var(--color-primary);
   color: #fff !important;
-  border-radius: 0 25px;
-  -webkit-border-radius: 0px 25px 0px 25px;
-  -moz-border-radius: 0px 25px 0px 25px;
-  -ms-border-radius: 0px 25px 0px 25px;
-  -o-border-radius: 0px 25px 0px 25px;
   cursor: pointer;
   font-size: 18px;
   outline: none;
   border: none;
+  border-radius: 0 25px;
+  -webkit-border-radius: 0 25px;
+  -moz-border-radius: 0 25px;
+  -ms-border-radius: 0 25px;
+  -o-border-radius: 0 25px;
 }
 
 button.btn-primary:hover{
@@ -67,6 +67,7 @@ h2.title {
   margin-bottom: 25px;
   position: relative;
   width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
 }
 
@@ -80,6 +81,7 @@ h2.title-reverse {
   margin-bottom: 25px;
   position: relative;
   width: -moz-fit-content;
+  width: -webkit-fit-content;
   width: fit-content;
 }
 
