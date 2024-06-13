@@ -30,7 +30,7 @@ h1.title_page {
 }
 
 section{
-  min-height: calc(100vh - 146px);
+  min-height: calc(100vh - 306px);
   padding-bottom: 50px;
 }
 

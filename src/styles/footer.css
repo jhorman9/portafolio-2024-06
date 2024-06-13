@@ -1,11 +1,18 @@
 footer{
-    background-color: #350600;
+    background-color: #350600f5;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-top: 1px solid #ffffff38;
     padding: 14px;
     gap: 14px;
+    height: 164px;
+}
+
+@media (max-width: 768px) {
+    footer{
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
