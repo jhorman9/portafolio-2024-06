@@ -33,11 +33,6 @@ section{
   padding-bottom: 50px;
 }
 
-footer{
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-}
-
 .color{
   color: #ea8f1d;
   font-weight: 600;
@@ -124,4 +119,6 @@ p.description-txt{
   width: 100%;
   max-width: 1400px;
   margin: auto;
+  padding-left: 14px;
+  padding-right: 14px;
 }
