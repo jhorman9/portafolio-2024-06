@@ -4,6 +4,8 @@ footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border-top: 1px solid #ffffff38;
+    padding: 14px;
+    gap: 14px;
 }
 
 footer img{
@@ -12,4 +14,6 @@ footer img{
 
 footer ul{
     padding: 0;
+    list-style: none;
+    
 }
