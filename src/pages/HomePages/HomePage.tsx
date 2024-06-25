@@ -3,6 +3,12 @@ import aboutIcon from '../../assets/images/social-media.png';
 import '../../styles/HomePage.css';
 
 export const HomePage = () => {
+
+  const myDateOfBirth = 1997;
+  const getDate = new Date();
+  const getActuallyYear = getDate.getFullYear();
+  let yearOld = getActuallyYear - myDateOfBirth;
+
   return (
     <>
     <section className="homePage container">
@@ -23,7 +29,7 @@ export const HomePage = () => {
         </div>
         <div className='homePage_2-content__description description-txt'>
           <h2 className='title'>SOBRE M&#205;</h2>
-          <p>Desarrollador full stack venezolano, actualmente radicado en Panamá. Con 26 años de edad, mi pasión por la tecnología y el desarrollo web me llevó a estudiar HTML, CSS y JavaScript, y me especialicé en el desarrollo del frontend con ReactJS, Redux y Bootstrap, y del backend con Node.js, Express, Sequelize y Postgres. Adicionalmente también sé usar Wordpress.</p>
+          <p>Desarrollador full stack venezolano, actualmente radicado en Panamá. Con {yearOld} años de edad, mi pasión por la tecnología y el desarrollo web me llevó a estudiar HTML, CSS y JavaScript, y me especialicé en el desarrollo del frontend con ReactJS, Redux y Bootstrap, y del backend con Node.js, Express, Sequelize y Postgres. Adicionalmente también sé usar Wordpress.</p>
           <p>Siempre estoy en busca de nuevos conocimientos y desafíos, lo que me lleva a estar constantemente actualizándome y aprendiendo nuevas tecnologías para poder brindar soluciones innovadoras a mis clientes.</p>
         </div>
       </div>
