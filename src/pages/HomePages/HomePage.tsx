@@ -7,7 +7,7 @@ export const HomePage = () => {
   const myDateOfBirth = 1997;
   const getDate = new Date();
   const getActuallyYear = getDate.getFullYear();
-  let yearOld = getActuallyYear - myDateOfBirth;
+  const yearOld = getActuallyYear - myDateOfBirth;
 
   return (
     <>

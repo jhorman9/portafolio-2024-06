@@ -39,3 +39,32 @@ header nav ul li a.active{
     color: var(--color-primary);
     font-weight: 500;
 }
+
+header .mobile-navbar{
+    display: none;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-width: 350px;
+    width: 100%;
+    z-index: 1;
+    color: #111;
+}
+
+header .mobile-navbar nav{
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header .mobile-navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .mobile-navbar nav ul li a{
+    color: var(--color-primary);
+}
