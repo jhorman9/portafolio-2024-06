@@ -22,6 +22,7 @@
     .homePage img{
         width: 100%;
         height: auto;
+        margin-bottom: 14px;
     }
     .homePage .homePage_header {
         text-align: center;
@@ -29,7 +30,7 @@
 }
 
 .homePage button{
-    margin-top: 12px;
+    margin-top: 14px;
 }
 
 .homePage_2{
@@ -74,7 +75,7 @@
 }
 
 .homePage_2 .homePage_2-content p{
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .homePage_2 .homePage_2-content img{
