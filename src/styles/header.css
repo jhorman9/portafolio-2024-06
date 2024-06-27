@@ -42,15 +42,14 @@ header nav ul li a.active{
 
 header .mobile-navbar{
     display: none;
-    background-color: #fff;
-    position: fixed;
+    background: radial-gradient(ellipse at bottom, #350600 10%, #000000 100%);    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    min-width: 350px;
+    max-width: 325px;
     width: 100%;
     z-index: 1;
-    color: #111;
+    padding: 7px;
 }
 
 header .mobile-navbar nav{
@@ -65,6 +64,7 @@ header .mobile-navbar ul{
     align-items: flex-start;
 }
 
-header .mobile-navbar nav ul li a{
-    color: var(--color-primary);
+header .mobile-navbar ul{
+    padding-left: 20px;
+    padding-top: 14px;
 }

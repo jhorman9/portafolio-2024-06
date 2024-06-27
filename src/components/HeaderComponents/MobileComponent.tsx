@@ -1,4 +1,6 @@
 import { ListNavigateComponent } from './ListNavigateComponent';
+import logoPNG from '../../assets/images/logo/logo-jhorman-nieto.png';
+import { SocialMediaComponent } from './SocialMediaComponent';
 
 interface MobileComponentProps {
   isOpen: boolean;
@@ -6,11 +8,18 @@ interface MobileComponentProps {
 
 export const MobileComponent: React.FC<MobileComponentProps> = ({ isOpen }) => {
 
-  console.log(isOpen)
-
   return (
-    <div className='mobile-navbar' style={isOpen ? { display: 'flex' } : { display: 'none' }}>
-      <ListNavigateComponent />    
+    <div className='mobile-navbar-container'>
+      <div className='mobile-navbar' style={isOpen ? { display: 'block' } : { display: 'none' }}>
+        <div className='mobile-navbar_logo'>
+          <img src={logoPNG} alt="Logo de jhorman nieto" loading='eager' title='Logo de jhorman nieto' />
+        </div>
+        <ListNavigateComponent />
+        <div className='mobile-navbar_social-media'>
+          <SocialMediaComponent />
+        </div>    
+      </div>
+
     </div>
   )
 }
