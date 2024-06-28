@@ -4,7 +4,6 @@
     -moz-column-gap: 14px;
          column-gap: 14px;
     align-items: center;
-    min-height: unset;
 }
 
 @media (max-width:768px) {
@@ -31,10 +30,6 @@
 
 .homePage button{
     margin-top: 14px;
-}
-
-.homePage_2{
-    min-height: unset;
 }
 
 .homePage_2 .homePage_2-content{
@@ -85,4 +80,17 @@
 
 .homePage_2 .homePage_2-content p:last-child{
     margin-bottom: 0;
+}
+
+.homePage_3{
+    background-color: var(--color-primary);
+    padding: 35px;
+}
+
+.homePage_3 .homePage_3-container{
+    text-align: center;
+}
+
+.homePage, .homePage_2, .homePage_3{
+    min-height: unset;
 }

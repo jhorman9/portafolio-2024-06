@@ -11,7 +11,7 @@ export const MobileComponent: React.FC<MobileComponentProps> = ({ isOpen }) => {
   return (
       <div className='mobile-navbar' style={isOpen ? { display: 'block' } : { display: 'none' }}>
         <div className='mobile-navbar_logo'>
-          <img src={logoPNG} alt="Logo de jhorman nieto" loading='eager' title='Logo de jhorman nieto' />
+          <img src={logoPNG} alt="Logo de Jhorman Nieto" loading='eager' title='Logo de jhorman nieto' />
         </div>
         <ListNavigateComponent />
         <div className='mobile-navbar_social-media d-none'>
