@@ -91,6 +91,10 @@
     text-align: center;
 }
 
-.homePage, .homePage_2, .homePage_3{
+.homePage_3 h2{
+    margin-bottom: 20px;
+}
+
+.homePage, .homePage_2, .homePage_3, .homePage_4{
     min-height: unset;
 }

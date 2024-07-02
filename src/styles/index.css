@@ -45,6 +45,14 @@ body {
   background: #f1f1f1;
 }
 
+.react-multiple-carousel__arrow{
+  background: transparent;
+}
+
+.react-multiple-carousel__arrow:hover{
+  background: transparent;
+}
+
 h1.title_page {	
   margin-bottom: 3px;
   font-size: 32px; 
