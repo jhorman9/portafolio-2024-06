@@ -84,7 +84,7 @@
 
 .homePage_3{
     background-color: var(--color-primary);
-    padding: 35px;
+    padding: 35px 0;
 }
 
 .homePage_3 .homePage_3-container{
@@ -95,6 +95,33 @@
     margin-bottom: 20px;
 }
 
+.homePage_4{
+    padding: 35px 0;
+}
+
+.homePage_4 h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
 .homePage, .homePage_2, .homePage_3, .homePage_4{
-    min-height: unset;
+    min-height: unset;  
 }

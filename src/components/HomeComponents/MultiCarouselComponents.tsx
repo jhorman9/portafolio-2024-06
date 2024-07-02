@@ -16,6 +16,7 @@ import NPM from '../TechnologyUseComponents/NpmComponents';
 import ReactRouter from '../TechnologyUseComponents/ReactRouter';
 import TypeScript from '../TechnologyUseComponents/TypeScriptComponents';
 import VisualStudioCode from '../TechnologyUseComponents/VSCodeComponents';
+import WordPress from '../TechnologyUseComponents/WordPressComponents';
 
 export const MultiCarouselComponents = () => {
 
@@ -62,6 +63,7 @@ export const MultiCarouselComponents = () => {
         <Expressjs />
         <PostgreSQL />
         <Sequelize />
+        <WordPress />
         <Git />
         <Github />
         <NPM />
