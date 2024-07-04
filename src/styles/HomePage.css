@@ -4,6 +4,7 @@
     -moz-column-gap: 14px;
          column-gap: 14px;
     align-items: center;
+    padding-top: 35px;
 }
 
 @media (max-width:768px) {
@@ -96,7 +97,7 @@
 }
 
 .homePage_4{
-    padding: 35px 0;
+    padding: 50px 0;
 }
 
 .homePage_4 h2{
@@ -106,7 +107,6 @@
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 

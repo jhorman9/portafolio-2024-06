@@ -1,14 +1,14 @@
 :root{
-  --color-primary: #ea8f1d;
+  --color-primary: #ff9100;
   --color-btn-primary: #8a4d16;
   --color-btn-text-primary: #f1f1f1;
+  --color-blue: #0a4bdd;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
-
 }
 
 body {
@@ -19,11 +19,19 @@ body {
   color: #ffffff;
   line-height: 1.6;
   position: relative;
-  font-family: sans-serif;
   overflow-x: hidden;
-  background: radial-gradient(ellipse at bottom, #350600 0%, #000000 100%);
-  scrollbar-color: #350600 #f1f1f1;
+  background: radial-gradient(ellipse at bottom, var(--color-blue) 0%, #000000 100%);
+  scrollbar-color: var(--color-blue) #f1f1f1;
   scrollbar-width: thin;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 *::-webkit-scrollbar {
@@ -32,13 +40,13 @@ body {
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--color-primary);
+  background: #fff;
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #350600;
+  background: var(--color-blue);
   border-radius: 10px;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #fff;
 }
 
 *::-webkit-scrollbar-corner {
@@ -65,7 +73,7 @@ h2.subtitle_page{
 }
 
 section{
-  min-height: calc(100vh - 306px);
+  min-height: calc(100vh - 244px);
   padding-bottom: 50px;
 }
 

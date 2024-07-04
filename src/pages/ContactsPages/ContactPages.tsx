@@ -1,6 +1,7 @@
 export const ContactPages = () => {
   return (
     <section className='contact'>
+        <h1>Formulario de contacto</h1>
       <div className="contact-container container">
           <ul className="contact-info">
               <li className="contact-info_section">

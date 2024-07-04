@@ -1,15 +1,20 @@
-import { Link } from 'react-router-dom';
-import logoType from '../../assets/images/logo/logo-jhorman-nieto.png';
+import { Link, useNavigate } from 'react-router-dom';
+import logoSVG from '../../assets/images/logo/logo-mobile-white.svg';
 import '../../styles/footer.css';
 import { NavLink } from 'react-router-dom';
 
 export const Footer = () => {
+
+  const navigate = useNavigate();
+
+  const changeRoute = () => {
+    navigate('/');
+  }
+
   return (
     <footer>
-      <div>
-        <Link to='/'>
-          <img src={logoType} alt="Logo de Jhorman Nieto P" title='Logo de Jhorman Nieto' loading='lazy' width={150} height={200}/>
-        </Link>
+      <div className='logo-footer'>
+        <img src={logoSVG} alt="Logo de Jhorman Nieto P" title='Logo de Jhorman Nieto' loading='lazy' width={200} height={200} onClick={changeRoute}/>
       </div>
       <div>
         <h3>Navegacion</h3>

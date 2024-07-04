@@ -2,12 +2,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px;
+    padding: 14px 14px 10px;
+    background-color: #0a4bdd21;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    backdrop-filter: blur(4px);
 }
 
 header img{
     height: auto;
-    width: 125px;
 }
 header nav{
     display: flex;

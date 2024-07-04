@@ -1,5 +1,5 @@
 import '../../styles/header.css';
-import logoPNG from '../../assets/images/logo/logo-jhorman-nieto.png';
+import logoSVG from '../../assets/images/logo/logo-desktop-white.svg';
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import { Link } from "react-router-dom";
 import { DesktopComponent } from "./DesktopComponent";
@@ -18,7 +18,7 @@ export const Header = () => {
   return (
     <header >
       <Link to='/' className="logo">
-        <img src={logoPNG} loading="eager" width={100} height={100} title="logo" alt="react logo" />
+        <img src={logoSVG} loading="eager" width={250} height={250} title="logo" alt="react logo" />
       </Link>
       {
         width < 768 ?
