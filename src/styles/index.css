@@ -3,6 +3,7 @@
   --color-btn-primary: #8a4d16;
   --color-btn-text-primary: #f1f1f1;
   --color-blue: #0a4bdd;
+  --swiper-pagination-color: var(--color-primary);
 }
 
 * {

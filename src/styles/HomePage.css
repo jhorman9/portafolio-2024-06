@@ -120,6 +120,7 @@
 .swiper-slide img {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 .homePage, .homePage_2, .homePage_3, .homePage_4{
