@@ -1,34 +1,7 @@
 import { useEffect, useState } from 'react';
 import aboutIcon from '../../assets/images/Bug fixing-amico.png';
 
-interface CalculateAgeFunction {
-  (date: string): number;
-}
-
-interface AgeState {
-  age: number | null;
-}
-
 export const FifthSectionComponent = () => {
-    const [ageState, setAgeState] = useState<AgeState>({ age: null });
-
-  const birthDate = '1997-08-12';
-
-  const calculateAge: CalculateAgeFunction = (date: string): number => {
-    const today = new Date();
-    const birth = new Date(date);
-    let age = today.getFullYear() - birth.getFullYear();
-    const monthDifference = today.getMonth() - birth.getMonth();
-    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birth.getDate())) {
-      age--;
-    }
-    return age;
-  };
-
-  useEffect(() => {
-    const calculatedAge = calculateAge(birthDate);
-    setAgeState({ age: calculatedAge });
-  }, []);
 
   return (
     <section className='homePage_5 container'>
