@@ -172,7 +172,7 @@
 @media (max-width: 768px) {
     .homePage_5 .homePage_5-content ul li{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
 }
 
