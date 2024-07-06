@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import aboutIcon from '../../assets/images/social-media.png';
 import aboutIcon2 from '../../assets/images/Developer activity-amico.png';
 
 interface CalculateAgeFunction {

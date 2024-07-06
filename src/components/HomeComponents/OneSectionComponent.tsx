@@ -1,6 +1,3 @@
-import homeIcon from '../../assets/images/home-page.png';
-import homeIcon2 from '../../assets/images/Developer activity-amico.png';
-import homeIcon3 from '../../assets/images/Code typing-bro.png';
 import homeIcon4 from '../../assets/images/Code typing-bro (1).png';
 
 export const OneSectionComponent = () => {
