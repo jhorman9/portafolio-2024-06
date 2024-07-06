@@ -154,9 +154,9 @@ h2.title-reverse::before{
   right: 0;
 }
 
-p.description-txt{
+/* p.description-txt{
   max-width: 800px;
-}
+} */
 
 a:hover{
   color: var(--color-primary);

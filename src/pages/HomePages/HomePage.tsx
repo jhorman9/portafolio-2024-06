@@ -1,3 +1,4 @@
+import { FifthSectionComponent } from '../../components/HomeComponents/FifthSectionComponent';
 import { OneSectionComponent } from '../../components/HomeComponents/OneSectionComponent';
 import { QuarterComponents } from '../../components/HomeComponents/QuarterComponents';
 import { SecondSectionComponent } from '../../components/HomeComponents/SecondSectionComponent';
@@ -11,6 +12,7 @@ export const HomePage = () => {
     <OneSectionComponent />
     <SecondSectionComponent />
     <ThirdSectionComponent />
+    <FifthSectionComponent />
     <QuarterComponents />
     </>
   )

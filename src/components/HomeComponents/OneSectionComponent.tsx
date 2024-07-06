@@ -1,5 +1,7 @@
 import homeIcon from '../../assets/images/home-page.png';
 import homeIcon2 from '../../assets/images/Developer activity-amico.png';
+import homeIcon3 from '../../assets/images/Code typing-bro.png';
+import homeIcon4 from '../../assets/images/Code typing-bro (1).png';
 
 export const OneSectionComponent = () => {
   return (
@@ -11,7 +13,7 @@ export const OneSectionComponent = () => {
         <button className='btn-primary'>Descargar Curriculum</button>
         </div>
         <div>
-        <img src={homeIcon2} alt="Icono de inicio de Jhorman Nieto desarrollador de software" title='Icono de inicio de Jhorman Nieto desarrollador de software' loading='eager' width={440} height={431}/>
+        <img src={homeIcon4} alt="Icono de inicio de Jhorman Nieto desarrollador de software" title='Icono de inicio de Jhorman Nieto desarrollador de software' loading='eager' width={440} height={431}/>
         </div>
     </section>
   )
