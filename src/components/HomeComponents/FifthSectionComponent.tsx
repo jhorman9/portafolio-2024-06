@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import aboutIcon from '../../assets/images/Bug fixing-amico.png';
 
 export const FifthSectionComponent = () => {
