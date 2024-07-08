@@ -108,7 +108,7 @@ button.btn-primary:hover{
   box-shadow: 1px 1px 15px #8a4d16;
 }
 
-h2.title {
+.title {
   margin-bottom: 14px;
   position: relative;
   width: -moz-fit-content;
@@ -122,7 +122,7 @@ h2.title {
   justify-content: flex-end;
 }
 
-h2.title-reverse {
+.title-reverse {
   margin-bottom: 14px;
   position: relative;
   width: -moz-fit-content;
@@ -130,7 +130,7 @@ h2.title-reverse {
   width: fit-content;
 }
 
-h2.title::before{
+.title::before{
   content: '';
   position: absolute;
   bottom: 0;
@@ -140,11 +140,11 @@ h2.title::before{
   transition: .3s ease-in-out;
 }
 
-h2.title:hover::before {
+.title:hover::before {
   width: 100%;
 }
 
-h2.title-reverse::before{
+.title-reverse::before{
   content: '';
   position: absolute;
   bottom: 0;

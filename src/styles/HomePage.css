@@ -29,6 +29,11 @@
     }
 }
 
+.homePage_header img{
+    filter: drop-shadow(2px 4px 6px #000);
+    -webkit-filter: drop-shadow(2px 4px 6px #000);
+}
+
 .homePage button{
     margin-top: 12px;
 }
@@ -84,6 +89,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-filter: drop-shadow(2px 4px 6px #000);
+    filter: drop-shadow(2px 4px 6px #000);
 }
 
 .homePage_2 .homePage_2-content p:last-child{

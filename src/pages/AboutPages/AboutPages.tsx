@@ -1,5 +1,22 @@
+import aboutMePNG from '../../assets/images/About me page-amico.png';
+import '../../styles/About.css';
+
 export const AboutPages = () => {
   return (
-    <section><h1>About Pages</h1></section>
+    <section className="about">
+      <div className="about_container container">
+        <div>
+          <img src={aboutMePNG} width={440} height={431} alt="Sobre mi" title="Sobre mi" loading="lazy" />
+        </div>
+        <div>
+          <h1 className='title'>DESARROLLADOR FULL STACK</h1>
+          <div className='description-txt'>
+            <p>Con más de dos años de experiencia en frontend y un año adicional en backend, comprometido con el crecimiento constante y la actualización en nuevas tecnologías. A lo largo de mi carrera, he adquirido habilidades en la gestión de hosting y dominios, trabajando con proveedores como Neolo, GoDaddy, HostGator y Hostinger. Mi experiencia incluye el mantenimiento, alojamiento y migración de sitios web.</p>
+            <p>Me apasiona el deporte, especialmente el fútbol, el voleibol y el gimnasio. Valoro el trabajo en equipo y disfruto aprendiendo cosas nuevas, así como compartiendo mis conocimientos con otros. Actualmente, estoy estudiando una licenciatura en Administración Tecnológica y Redes Informáticas. Además, me mantengo actualizado a través de cursos y la lectura de documentación técnica actual.</p>
+            <p>Mi objetivo es seguir creciendo profesionalmente, aportando soluciones innovadoras y eficientes en el ámbito del desarrollo web.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
