@@ -63,6 +63,13 @@ header .mobile-navbar{
     z-index: 1;
     background-color: #000000e0;
 }
+
+@media (max-width:575px) {
+    header .mobile-navbar{
+        top: 73px;
+        height: calc(100vh - 73px);
+    }
+}
     
 header .mobile-navbar nav{
     width: 100%;
