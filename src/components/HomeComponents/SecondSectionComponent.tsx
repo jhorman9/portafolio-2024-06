@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import aboutIcon2 from '../../assets/images/Developer activity-amico.png';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 interface CalculateAgeFunction {
   (date: string): number;
