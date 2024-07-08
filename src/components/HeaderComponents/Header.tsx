@@ -28,7 +28,7 @@ export const Header = () => {
           <rect y="30" width="100" height="10" fill="#ea8f1d"></rect>
           <rect y="60" width="100" height="10" fill="#ea8f1d"></rect>
         </svg>
-        <MobileComponent isOpen={isOpen}/>
+        <MobileComponent isOpen={isOpen} setIsOpen={setIsOpen}/>
         </>
           :
         <DesktopComponent />
