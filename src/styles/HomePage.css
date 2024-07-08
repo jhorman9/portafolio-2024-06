@@ -122,6 +122,14 @@
     margin-bottom: 20px;
 }
 
+.homePage_4 button.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 14px;
+}
+
 .homePage_5{
     padding-bottom: 0;
 }
@@ -208,7 +216,6 @@
 
 .swiper {
   width: 100%;
-  padding-bottom: 50px;
 }
 
 .swiper-slide {

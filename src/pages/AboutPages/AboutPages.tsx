@@ -3,7 +3,7 @@ import '../../styles/About.css';
 
 export const AboutPages = () => {
   return (
-    <section className="about">
+    <section className="about" id='about-section'>
       <div className="about_container container">
         <div>
           <img src={aboutMePNG} width={440} height={431} alt="Sobre mi" title="Sobre mi" loading="lazy" />

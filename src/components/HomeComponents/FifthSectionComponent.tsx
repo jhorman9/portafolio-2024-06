@@ -6,7 +6,7 @@ export const FifthSectionComponent = () => {
     <section className='homePage_5 container'>
       <div className='homePage_5-content'>
         <div className='homePage_5content__image'>
-          <img src={aboutIcon} loading='eager' alt="Icono sobre acerca de mi de Jhorman Nieto desarrollador de software" title='Icono sobre acerca de mi de Jhorman Nieto desarrollador de software' width={670} height={476} />
+          <img src={aboutIcon} loading='eager' alt="Icono sobre soporte de Jhorman Nieto desarrollador de software" title='Icono sobre soporte de Jhorman Nieto desarrollador de software' width={670} height={476} />
         </div>
         <div className='homePage_5-content__description description-txt'>
           <h2 className='title'>SOPORTE</h2>

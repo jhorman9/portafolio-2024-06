@@ -27,9 +27,7 @@ export const SwiperComponents = () => {
       modifier: 1,
       slideShadows: true,
     }}
-    pagination={{
-      clickable: true,
-    }}
+    pagination={false}
     autoplay={{
       delay: 2500,
       disableOnInteraction: false,
