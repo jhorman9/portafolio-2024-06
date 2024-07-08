@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './styles/App.css';
 import './styles/lines.css';
 import { Header } from './components/HeaderComponents/Header';
@@ -13,7 +13,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Lines />
         <ScrollToTop />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/contact" element={<ContactPages />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
