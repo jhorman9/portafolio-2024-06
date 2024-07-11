@@ -35,12 +35,12 @@
 }
 
 .homePage button{
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 .homePage_2 .homePage_2-content{
     display: grid;
-    grid-template-columns: fit-content(421px) 2fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     -moz-column-gap: 50px;

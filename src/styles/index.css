@@ -63,14 +63,14 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1.title_page {	
-  margin-bottom: 3px;
+  margin-bottom: 7px;
   font-size: 32px; 
   font-weight: 600;
   line-height: 1;
 }
 
 h2.subtitle_page{
-  margin-bottom: 0px;
+  margin-bottom: 3px;
 }
 
 section{
@@ -101,6 +101,7 @@ button.btn-primary{
   -ms-border-radius: 0 25px;
   -o-border-radius: 0 25px;
   border-radius: 0 25px;
+  margin-top: 20px;
 }
 
 button.btn-primary:hover{
@@ -183,4 +184,8 @@ fieldset{
   margin: auto;
   padding-left: 14px;
   padding-right: 14px;
+}
+
+.without-margin{
+  margin: 0 !important;
 }
