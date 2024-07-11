@@ -40,7 +40,7 @@
 
 .homePage_2 .homePage_2-content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: fit-content(421px) 2fr;
     justify-content: center;
     align-items: center;
     -moz-column-gap: 50px;
@@ -81,6 +81,10 @@
     margin-bottom: 12px;
 }
 
+.homePage_2 .homePage_2-content p:last-child{
+    margin: 0 !important;
+}
+
 .homePage_2 .homePage_2-content img, .homePage_5 .homePage_5-content img{
     width: 100%;
     height: auto;
@@ -91,10 +95,6 @@
     align-items: center;
     -webkit-filter: drop-shadow(2px 4px 6px #000);
     filter: drop-shadow(2px 4px 6px #000);
-}
-
-.homePage_2 .homePage_2-content p:last-child{
-    margin-bottom: 0;
 }
 
 .homePage_3{
@@ -127,7 +127,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 14px;
+    margin-top: 20px;
 }
 
 .homePage_5{

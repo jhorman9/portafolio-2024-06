@@ -2,19 +2,13 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 14px;
+    padding: 35px;
     gap: 14px;
-    height: 164px;
+    height: auto;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-}
-
-@media (max-width: 768px) {
-    footer{
-        height: auto;
-    }
 }
 
 @media (max-width: 768px) {

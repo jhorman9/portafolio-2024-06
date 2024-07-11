@@ -5,6 +5,7 @@ import azumiJPG from '../../assets/images/azumipty.jpg';
 import cocolpanJPG from '../../assets/images/cocolpanpty.jpg';
 import codigoJPG from '../../assets/images/codigosdeprogramacion.jpg';
 import customCodeJPG from '../../assets/images/custom-code.jpg';
+import aikikairdJPG from '../../assets/images/aikikaird.jpg';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -61,8 +62,8 @@ export const SwiperComponents = () => {
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://azumipty.netlify.app/' target='_blank'>
-        <img title='Imagen de azumi panamá' loading='lazy' width={100} height={100} alt='Imagen de Azumi Panamá' src={azumiJPG} />
+      <Link to='https://aikikaird.org/' target='_blank'>
+        <img title='Imagen de aikido república dominicana' loading='lazy' width={100} height={100} alt='Imagen de aikido república dominicana' src={aikikairdJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>

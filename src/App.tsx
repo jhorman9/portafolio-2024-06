@@ -9,10 +9,13 @@ import { ProjectsPage } from './pages/ProjectsPages/ProjectsPage';
 import { ContactPages } from './pages/ContactsPages/ContactPages';
 import { Lines } from './components/Lines';
 import ScrollToTop from './components/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
+  
   return (
     <>
+    <HelmetProvider>
       <HashRouter>
         <Header />
         <Lines />
@@ -25,6 +28,7 @@ function App() {
         </Routes>
         <Footer />
       </HashRouter>
+    </HelmetProvider>
     </>
   )
 }
