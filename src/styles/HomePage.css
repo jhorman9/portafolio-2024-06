@@ -40,7 +40,7 @@
 
 .homePage_2 .homePage_2-content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: fit-content(420px) 1fr;
     justify-content: center;
     align-items: center;
     -moz-column-gap: 50px;
