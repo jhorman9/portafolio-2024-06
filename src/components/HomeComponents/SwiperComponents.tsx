@@ -6,6 +6,7 @@ import cocolpanJPG from '../../assets/images/cocolpanpty.jpg';
 import codigoJPG from '../../assets/images/codigosdeprogramacion.jpg';
 import customCodeJPG from '../../assets/images/custom-code.jpg';
 import aikikairdJPG from '../../assets/images/aikikaird.jpg';
+import crudJPG from '../../assets/images/crud.jpg';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -67,8 +68,8 @@ export const SwiperComponents = () => {
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://cocolpan.com/' target='_blank'>
-        <img title='Imagen de cocolpan panamá' loading='lazy' width={100} height={100} alt='Imagen de Cocolpan Panamá' src={cocolpanJPG} />
+      <Link to='#' target='_blank'>
+        <img title='Imagen de cocolpan panamá' loading='lazy' width={100} height={100} alt='Imagen de Cocolpan Panamá' src={crudJPG} />
       </Link>
     </SwiperSlide>
   </Swiper>
