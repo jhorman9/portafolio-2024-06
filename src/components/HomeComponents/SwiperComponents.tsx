@@ -69,7 +69,7 @@ export const SwiperComponents = () => {
     </SwiperSlide>
     <SwiperSlide>
       <Link to='#' target='_blank'>
-        <img title='Imagen de cocolpan panamá' loading='lazy' width={100} height={100} alt='Imagen de Cocolpan Panamá' src={crudJPG} />
+        <img title='Imagen de CRUD node + express' loading='lazy' width={100} height={100} alt='Imagen de CRUD node + express' src={crudJPG} />
       </Link>
     </SwiperSlide>
   </Swiper>
