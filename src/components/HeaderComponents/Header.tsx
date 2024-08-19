@@ -18,7 +18,7 @@ export const Header = () => {
   return (
     <header >
       <Link to='/' className="logo">
-        <img src={logoSVG} loading="eager" width={250} height={250} title="logo" alt="react logo" />
+        <img src={logoSVG} loading="eager" width={250} height={48} title="logo" alt="react logo" />
       </Link>
       {
         width < 768 ?
