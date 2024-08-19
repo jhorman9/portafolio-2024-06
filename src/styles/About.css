@@ -5,10 +5,15 @@
     
 .about .about_container{
     display: grid;
-    grid-template-columns: 2fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     align-items: center;
     place-items: center;
     column-gap: 50px;
+}
+
+.about .about_container img{
+    width: 100%;
+    height: 100%;
 }
 
 .about .about_container div:first-child{

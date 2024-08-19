@@ -1,22 +1,65 @@
-import aboutIcon from '../../assets/images/Bug fixing-amico.png';
+import consultingSVG from '../../assets/icons/consulting.svg';
+import performanceSVG from '../../assets/icons/Performance.svg';
+import solvingsSVG from '../../assets/icons/solving.svg';
+import updateManteinanceSVG from '../../assets/icons/update-maintenance.svg';
 
 export const FifthSectionComponent = () => {
 
   return (
     <section className='homePage_5 container'>
       <div className='homePage_5-content'>
-        <div className='homePage_5content__image'>
-          <img src={aboutIcon} loading='eager' alt="Icono sobre soporte de Jhorman Nieto desarrollador de software" title='Icono sobre soporte de Jhorman Nieto desarrollador de software' width={670} height={476} />
-        </div>
         <div className='homePage_5-content__description description-txt'>
           <h2 className='title'>SOPORTE</h2>
-          <p>Brindo una amplia gama de servicios de soporte para asegurar que tus proyectos funcionen de manera eficiente y efectiva. Entre mis servicios se incluyen:</p>
-          <ul className='list-support'>
-            <li><strong className='color'>Consultoría Técnica:</strong> Proveer asesoramiento experto sobre las mejores prácticas y estrategias para el desarrollo web.</li>
-            <li><strong className='color'>Mantenimiento y Actualización:</strong> Ofrecer servicios continuos para mantener y actualizar sitios web y aplicaciones.</li>
-            <li><strong className='color'>Optimización de Rendimiento:</strong> Realizar análisis y mejoras para asegurar un rendimiento óptimo de los sitios web.</li>
-            <li><strong className='color'>Solución de Problemas:</strong> Identificar y resolver problemas técnicos en proyectos existentes.</li>
-            <li><strong className='color'>Capacitación y Formación:</strong> Proporcionar entrenamiento especializado y formación en tecnologías y herramientas específicas.</li>
+          <p>Brindo una amplia gama de servicios y soporte para asegurar que tus proyectos funcionen de manera eficiente y efectiva. Entre mis servicios se incluyen:</p>
+          <ul className='homePage_5-cards'>
+            <li className='home-card'>
+              <div className='home-image'>
+                <img src={consultingSVG} alt="Consultoría Técnica" width={170} height={150} />
+              </div>
+              <div className='home-body'>
+                <h3>Consultoría Técnica</h3>
+                <p>Proveer asesoramiento experto sobre las mejores prácticas y estrategias para el desarrollo web</p>
+              </div>
+              <div className="home-footer">
+                <a href="">Saber mas...</a>
+              </div>
+            </li>
+            <li className='home-card'>
+              <div className='home-image'>
+                <img src={solvingsSVG} alt="Consultoría Técnica" width={170} height={150} />
+              </div>
+              <div className='home-body'>
+                <h3>Solución de Problemas</h3>
+                <p>Identificar y resolver problemas técnicos en proyectos existentes para asegurar su funcionamiento óptimo.</p>
+              </div>
+              <div className="home-footer">
+                <a href="">Saber mas...</a>
+              </div>
+            </li>
+            <li className='home-card'>
+              <div className='home-image'>
+                <img src={performanceSVG} alt="Consultoría Técnica" width={170} height={150} />
+              </div>
+              <div className='home-body'>
+                <h3>Optimización de Rendimiento</h3>
+                <p>Realizar análisis y mejoras para asegurar un rendimiento óptimo de los sitios web.</p>
+              </div>
+              <div className="home-footer">
+                <a href="">Saber mas...</a>
+              </div>
+            </li>
+            <li className='home-card'>
+              <div className='home-image'>
+                <img src={updateManteinanceSVG} alt="Consultoría Técnica" width={170} height={150} />
+              </div>
+              <div className='home-body'>
+                <h3>Mantenimiento y Actualización</h3>
+                <p>Ofrecer servicios continuos para mantener y actualizar sitios web y aplicaciones.</p>
+              </div>
+              <div className="home-footer">
+                <a href="">Saber mas...</a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>

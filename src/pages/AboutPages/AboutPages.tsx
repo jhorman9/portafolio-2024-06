@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import aboutMePNG from '../../assets/images/About me page-amico.png';
+import aboutMePNG from '../../assets/icons/about.svg';
 import '../../styles/About.css';
 
 export const AboutPages = () => {

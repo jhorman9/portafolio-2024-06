@@ -8,8 +8,6 @@ import '../../styles/HomePage.css';
 
 export const HomePage = () => {
 
-  
-
   return (
     <>
     <Helmet>
