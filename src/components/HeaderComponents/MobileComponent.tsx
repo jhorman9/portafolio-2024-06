@@ -8,7 +8,7 @@ interface MobileComponentProps {
 
 export const MobileComponent: React.FC<MobileComponentProps> = ({ isOpen, setIsOpen }) => {
 
-  const changeFalse = () => {
+  const changeFalse = (): void => {
     setIsOpen(false);
   };
 
