@@ -29,19 +29,18 @@ export const Footer = () => {
         <div>
           <h3>Proyectos</h3>
           <ul>
-            <li><Link to="/">Menu 1</Link></li>
-            <li><Link to="/">Menu 2</Link></li>
-            <li><Link to="/">Menu 3</Link></li>
-            <li><Link to="/">Menu 4</Link></li>      
+            <li><Link to="/">Ecommerce</Link></li>
+            <li><Link to="/">Menú digital</Link></li>
+            <li><Link to="/">Constructora</Link></li>
+            <li><Link to="/">Artes Marciales</Link></li>      
           </ul>
         </div>
         <div>
           <h3>Contactos</h3>
           <ul>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/">Sobre mi</Link></li>
-            <li><Link to="/">Portafolio</Link></li>
-            <li><Link to="/">Contactos</Link></li>      
+            <li><Link to="/">Jhorman_nieto97@hotmail.com</Link></li>
+            <li><Link to="/">+507 6596-1547</Link></li>
+            <li><Link to="/">Formulario de contacto</Link></li>
           </ul>
         </div>
       </div>
