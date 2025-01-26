@@ -88,7 +88,7 @@ a{
   color: inherit;
 }
 
-button.btn-primary{
+.btn-primary{
   padding: 14px 28px;
   background-color: var(--color-primary);
   color: #fff !important;
@@ -104,7 +104,7 @@ button.btn-primary{
   margin-top: 20px;
 }
 
-button.btn-primary:hover{
+.btn-primary:hover{
   background-color: #ea8f1d;
   box-shadow: 1px 1px 15px #8a4d16;
 }

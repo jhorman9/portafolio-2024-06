@@ -10,6 +10,7 @@ import { ContactPages } from './pages/ContactsPages/ContactPages';
 import { Lines } from './components/Lines';
 import ScrollToTop from './components/ScrollToTop';
 import { HelmetProvider } from 'react-helmet-async';
+import { NotFound } from './pages/NotFound/NotFound';
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<AboutPages />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPages />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </HashRouter>

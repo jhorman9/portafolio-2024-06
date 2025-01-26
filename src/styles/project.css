@@ -9,8 +9,14 @@
 
 .project-page .project-page-portfolio {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(375px,1fr));
     gap: 20px;
+}
+
+@media (max-width: 400px) {
+    .project-page .project-page-portfolio {
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
 }
 
 .project-page .portfolio-item {
@@ -23,6 +29,12 @@
     width: 100%;
     border-radius: 14px;
     object-fit: cover;
+    object-position: top;
+    transition: .3s ease-in-out;
+}
+
+.project-page .portfolio-item:hover img{
+    object-position: bottom;
 }
 
 .project-page .portfolio-item .portfolio-item_description h2{
@@ -62,11 +74,29 @@
 .project-page .portfolio-item_technology {
     display: flex;
     justify-content: center;
-    gap: 7px;
+    gap: 14px;
     border-top: 2px solid #dddddd;
     padding-top: 12px;
+    align-items: center;
 }
 
 .project-page .portfolio-item_technology svg{
     width: 50px;
+}
+
+.project-page .portfolio-item_technology svg.php{
+    width: 95px;
+}
+
+.project-page .portfolio-item_technology img{
+    width: 70px;
+}
+
+.project-page .portfolio-item_technology img.elementor{
+    width: 200px;
+    height: unset;
+}
+
+.project-page .woocomerce {
+    width: 100px !important;
 }

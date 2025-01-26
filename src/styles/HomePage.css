@@ -34,8 +34,10 @@
     -webkit-filter: drop-shadow(2px 4px 6px #000);
 }
 
-.homePage button{
+.homePage a.btn-primary{
+    height: 100%;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .homePage_2 .homePage_2-content{

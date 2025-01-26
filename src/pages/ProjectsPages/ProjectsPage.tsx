@@ -11,6 +11,11 @@ import CssComponents from '../../components/TechnologyUseComponents/CssComponent
 import JavaScript from "../../components/TechnologyUseComponents/JsComponents";
 import ButtonReadMore from "../../components/ProjectsComponents/ButtonReadMore";
 import PhpComponents from "../../components/TechnologyUseComponents/PhpComponents";
+import React from "../../components/TechnologyUseComponents/ReactComponents";
+import WordPress from "../../components/TechnologyUseComponents/WordPressComponents";
+import WoocomerceComponents from "../../components/TechnologyUseComponents/WoocomerceComponents";
+import wpBakeryPNG from '../../assets/icons/wpb.png';
+import elementorPNG from '../../assets/icons/elementor.png';
 
 export const ProjectsPage = () => {
   return (
@@ -65,9 +70,8 @@ export const ProjectsPage = () => {
           </div>
           <ButtonReadMore />
           <div className="portfolio-item_technology">
-            <HtmlComponents />
+            <React />
             <CssComponents />
-            <JavaScript />
           </div>
         </div>
         <div className="portfolio-item">
@@ -80,9 +84,9 @@ export const ProjectsPage = () => {
           </div>
           <ButtonReadMore />
           <div className="portfolio-item_technology">
-            <HtmlComponents />
-            <CssComponents />
-            <JavaScript />
+            <WordPress />
+            <WoocomerceComponents />
+            <img src={wpBakeryPNG} alt="wp bakery" width={70} height={75}/>
           </div>
         </div>
         <div className="portfolio-item">
@@ -95,9 +99,8 @@ export const ProjectsPage = () => {
           </div>
           <ButtonReadMore />
           <div className="portfolio-item_technology">
-            <HtmlComponents />
-            <CssComponents />
-            <JavaScript />
+            <WordPress />
+            <img src={elementorPNG} alt="elementor" width={300} height={300} className="elementor"/>
           </div>
         </div>
         <div className="portfolio-item">
@@ -110,9 +113,7 @@ export const ProjectsPage = () => {
           </div>
           <ButtonReadMore />
           <div className="portfolio-item_technology">
-            <HtmlComponents />
-            <CssComponents />
-            <JavaScript />
+            <React />
           </div>
         </div>
       </div>

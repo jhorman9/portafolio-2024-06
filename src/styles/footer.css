@@ -15,15 +15,15 @@ footer .container{
     justify-items: center;
 }
 
-@media (max-width: 768px) {
-    footer{
+@media (max-width: 991px) {
+    footer .container{
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        justify-items: start;
     }
 }
 
 @media (max-width: 575px) {
-    footer{
+    footer .container{
         grid-template-columns: 1fr;
         justify-items: center;
         text-align: center;
@@ -35,9 +35,16 @@ footer .logo-footer{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+    footer .logo-footer{
+        justify-content: start;
+    }
+}
+
+@media (max-width: 575px) {
     footer .logo-footer{
         justify-content: center;
     }
