@@ -79,7 +79,7 @@ export const ProjectsPage = () => {
             <img src={ecommerceJPG} alt="Proyecto de porking" width={300} height={300} />
           </div>
           <div className="portfolio-item_description">
-            <h2>E-commerce Multilingüe</h2>
+            <h2>E-commerce</h2>
             <p>Desarrollo de un e-commerce creado con WordPress para permitir compras en línea de platos de forma rápida y segura. La página web fue totalmente personalizada según las preferencias del cliente, utilizando plugins y herramientas que optimizaron la funcionalidad y facilitaron la customización. El resultado es una plataforma moderna, intuitiva y completamente adaptada a las necesidades del negocio y sus usuariosDesarrollo de un e-commerce con WordPress que permite la compra en línea de platos de manera rápida y segura. La página web fue totalmente personalizada al gusto del cliente, utilizando plugins y herramientas para optimizar la funcionalidad y el diseño. Además, se implementó Google Translate para ofrecer una experiencia multilingüe, facilitando el acceso a clientes de diferentes idiomas. El resultado es una plataforma moderna, intuitiva y adaptada a las necesidades del negocio y sus usuarios.</p>
           </div>
           <ButtonReadMore />
@@ -108,7 +108,7 @@ export const ProjectsPage = () => {
             <img src={codigoJPG} alt="Proyecto de porking" width={300} height={300} />
           </div>
           <div className="portfolio-item_description">
-            <h2>Reutilización de Código</h2>
+            <h2>Código</h2>
             <p>Desarrollo de un proyecto creado para facilitar la reutilización de código de programación entre compañeros y amigos. Se implementó una estructura organizada y modular para que los fragmentos de código puedan ser fácilmente reutilizados en futuros proyectos, ahorrando tiempo y mejorando la eficiencia del desarrollo. Este proyecto fue diseñado con un enfoque práctico, permitiendo la integración de nuevas funcionalidades de manera rápida y sencilla, y optimizando el flujo de trabajo del equipo.</p>
           </div>
           <ButtonReadMore />
