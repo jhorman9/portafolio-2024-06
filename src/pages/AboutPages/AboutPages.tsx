@@ -7,7 +7,7 @@ export const AboutPages = () => {
     <>
     <Helmet>
       <title>Sobre mí - Jhorman Nieto P</title>
-      <link rel="canonical" href="http://localhost:5173/#/about" />
+      <link rel="canonical" href="https://jhorman.com/about" />
       <meta name="description" content="Jhorman Nieto - Desarrollador Full Stack con experiencia en HTML, CSS, JavaScript, ReactJS, Redux, Bootstrap, Node.js, Express, Sequelize, PostgresSQL y WordPress." />
     </Helmet>
     <section className="about" id='about-section'>

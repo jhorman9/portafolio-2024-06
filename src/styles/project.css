@@ -100,3 +100,69 @@
 .project-page .woocomerce {
     width: 100px !important;
 }
+
+.project-father{
+    padding-top: 30px;
+}
+
+.project .project-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    align-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 768px) {
+    .project .project-content{
+        grid-template-columns: 1fr;
+    }
+}
+
+.project a img{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    transition: 3s ease;
+    border-radius: 14px;
+}
+
+.project .project-right{
+    align-content: center;
+}
+
+.project .project-right h2{
+    margin-bottom: 14px;
+    color: var(--color-primary);
+}
+
+.project .project-right p{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+    .project a img{
+        margin-bottom: 14px;
+    }
+    .project .project-right h2, .project .project-right p{
+        text-align: center;
+    }
+
+    .project .project-right p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project a img{
+        margin-bottom: 14px;
+    }
+}
+
+.project a img:hover{
+    object-position: bottom;
+}

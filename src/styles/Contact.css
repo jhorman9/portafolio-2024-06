@@ -130,3 +130,7 @@ iframe.contact-iframe{
 .contact .contact-info{
     align-content: center;
 }
+
+.contact p.status-message {
+    padding-top: 25px;
+}

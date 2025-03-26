@@ -38,7 +38,7 @@ export const Footer = () => {
         <div>
           <h3>Contactos</h3>
           <ul>
-            <li><Link to="/">Jhorman_nieto97@hotmail.com</Link></li>
+            <li><a href="mailto:softwaredeveloper@jhorman.com">softwaredeveloper@jhorman.com</a></li>
             <li><Link to="/">+507 6596-1547</Link></li>
             <li><Link to="/">Formulario de contacto</Link></li>
           </ul>

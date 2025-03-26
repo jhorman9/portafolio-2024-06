@@ -189,3 +189,9 @@ fieldset{
 .without-margin{
   margin: 0 !important;
 }
+
+.not-found-container{
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 50px;
+}

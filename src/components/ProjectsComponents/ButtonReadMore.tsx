@@ -1,8 +1,12 @@
 import { Link } from 'react-router-dom';
 
-const ButtonReadMore = () => {
+interface IDComponent {
+  id: number
+}
+
+const ButtonReadMore: React.FC<IDComponent> = ({ id }) => {
   return (
-    <button className='read-more'><Link to={"/projects/1"}>Leer más...</Link></button>
+    <button className='read-more'><Link to={`/projects/${id}`}>Leer más...</Link></button>
   )
 }
 
