@@ -29,18 +29,18 @@ export const Footer = () => {
         <div>
           <h3>Proyectos</h3>
           <ul>
-            <li><Link to="/">Ecommerce</Link></li>
-            <li><Link to="/">Menú digital</Link></li>
-            <li><Link to="/">Constructora</Link></li>
-            <li><Link to="/">Artes Marciales</Link></li>      
+            <li><Link to="/projects/4">Ecommerce</Link></li>
+            <li><Link to="/projects/3">Menú digital</Link></li>
+            <li><Link to="/projects/2">Constructora</Link></li>
+            <li><Link to="/projects/5">Artes Marciales</Link></li>      
           </ul>
         </div>
         <div>
           <h3>Contactos</h3>
           <ul>
             <li><a href="mailto:softwaredeveloper@jhorman.com">softwaredeveloper@jhorman.com</a></li>
-            <li><Link to="/">+507 6596-1547</Link></li>
-            <li><Link to="/">Formulario de contacto</Link></li>
+            <li><Link to="https://wa.link/e77f4c" target='_blank'>+507 6596-1547</Link></li>
+            <li><Link to="/contact">Formulario de contacto</Link></li>
           </ul>
         </div>
       </div>
