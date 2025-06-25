@@ -36,7 +36,7 @@ export const SecondSectionComponent = () => {
     <section className='homePage_2 container'>
       <div className='homePage_2-content'>
         <div className='homePage_2-content__image'>
-          <img src={aboutIcon2} loading='eager' alt="Icono sobre acerca de mi de Jhorman Nieto desarrollador de software" title='Icono sobre acerca de mi de Jhorman Nieto desarrollador de software' width={670} height={476} />
+          <img src={aboutIcon2} loading='lazy' alt="Icono sobre acerca de mi de Jhorman Nieto desarrollador de software" title='Icono sobre acerca de mi de Jhorman Nieto desarrollador de software' width={670} height={476} />
         </div>
         <div className='homePage_2-content__description'>
           <h2 className='title'>SOBRE M&#205;</h2>

@@ -19,7 +19,7 @@ export const Header = () => {
     <header>
       <div className="header-container container">
         <Link to='/' className="logo">
-          <img src={logoSVG} loading="eager" width={250} height={48} title="logo" alt="react logo" />
+          <img src={logoSVG} loading="lazy" width={250} height={48} title="logo" alt="react logo" />
         </Link>
         {
           width < 768 ?

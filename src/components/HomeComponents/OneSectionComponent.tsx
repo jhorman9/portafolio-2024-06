@@ -17,7 +17,7 @@ export const OneSectionComponent = () => {
         <a className='btn-primary' onClick={()=> viewPdf(PDF)}>Ver Curriculum</a>
         </div>
         <div>
-        <img src={homeIcon4} alt="Icono de inicio de Jhorman Nieto desarrollador de software" title='Icono de inicio de Jhorman Nieto desarrollador de software' loading='eager' width={440} height={431}/>
+        <img src={homeIcon4} alt="Icono de inicio de Jhorman Nieto desarrollador de software" title='Icono de inicio de Jhorman Nieto desarrollador de software' loading='lazy' width={440} height={431}/>
         </div>
     </section>
   )
