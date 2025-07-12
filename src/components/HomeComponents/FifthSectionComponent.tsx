@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import consultingSVG from '../../assets/icons/consulting.svg';
 import performanceSVG from '../../assets/icons/Performance.svg';
 import solvingsSVG from '../../assets/icons/solving.svg';
@@ -21,7 +22,7 @@ export const FifthSectionComponent = () => {
                 <p>Proveer asesoramiento experto sobre las mejores prácticas y estrategias para el desarrollo web</p>
               </div>
               <div className="home-footer">
-                <a href="">Saber mas...</a>
+                <Link to={"https://wa.link/oyoacx"}>Saber mas...</Link>
               </div>
             </li>
             <li className='home-card'>
@@ -33,7 +34,7 @@ export const FifthSectionComponent = () => {
                 <p>Identificar y resolver problemas técnicos en proyectos existentes para asegurar su funcionamiento óptimo.</p>
               </div>
               <div className="home-footer">
-                <a href="">Saber mas...</a>
+                <Link to={"https://wa.link/2kugyy"}>Saber mas...</Link>
               </div>
             </li>
             <li className='home-card'>
@@ -45,7 +46,7 @@ export const FifthSectionComponent = () => {
                 <p>Realizar análisis y mejoras para asegurar un rendimiento óptimo de los sitios web.</p>
               </div>
               <div className="home-footer">
-                <a href="">Saber mas...</a>
+                <Link to={"https://wa.link/xygnqf"}>Saber mas...</Link>
               </div>
             </li>
             <li className='home-card'>
@@ -57,7 +58,7 @@ export const FifthSectionComponent = () => {
                 <p>Ofrecer servicios continuos para mantener y actualizar sitios web y aplicaciones.</p>
               </div>
               <div className="home-footer">
-                <a href="">Saber mas...</a>
+                <Link to={"https://wa.link/kyivh9"}>Saber mas...</Link>
               </div>
             </li>
           </ul>
