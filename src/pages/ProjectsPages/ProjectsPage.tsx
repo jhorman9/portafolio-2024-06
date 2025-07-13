@@ -22,10 +22,54 @@ export const ProjectsPage = () => {
     <section className="project-page container">
       <Helmet>
         <title>Proyectos - Jhorman Nieto P</title>
-        <link rel="canonical" href={"https://jhorman.com/projects"} />
-        <meta name="description" content="Jhorman Nieto - Desarrollador Full Stack con experiencia en HTML, CSS, JavaScript, ReactJS, Redux, Bootstrap, Node.js, Express, Sequelize, PostgresSQL y WordPress." />
-        <meta name="keywords" content="Desarrollador Full Stack, HTML, CSS, JavaScript, ReactJS, Redux, Bootstrap, Node.js, Express, Sequelize, PostgresSQL, WordPress, Desarrollo Web" />
+        <link rel="canonical" href="https://jhorman.com/#/projects" />
+        <meta name="description" content="Portafolio de proyectos de Jhorman Nieto, desarrollador Full Stack en Panamá. Descubre implementaciones en HTML, CSS, JavaScript, ReactJS, WordPress y más." />
+        <meta name="keywords" content="Portafolio, Proyectos, Jhorman Nieto, Desarrollador Full Stack, HTML, CSS, JavaScript, ReactJS, WordPress, Panamá, Desarrollo Web" />
         <meta name="author" content="Jhorman Nieto" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Proyectos - Jhorman Nieto P" />
+        <meta property="og:description" content="Portafolio de proyectos de Jhorman Nieto, desarrollador Full Stack en Panamá." />
+        <meta property="og:url" content="https://jhorman.com/#/projects" />
+        <meta property="og:site_name" content="Jhorman Nieto - Portafolio" />
+        <meta property="og:image" content="https://jhorman.com/assets/logo-desktop-white-Cy8VoD5d.svg" />
+        <meta property="og:locale" content="es_ES" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Proyectos - Jhorman Nieto P" />
+        <meta name="twitter:description" content="Portafolio de proyectos de Jhorman Nieto, desarrollador Full Stack en Panamá." />
+        <meta name="twitter:image" content="https://jhorman.com/assets/logo-desktop-white-Cy8VoD5d.svg" />
+        <meta name="twitter:creator" content="@Jhorman1D" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="content-language" content="es" />
+        <meta name="geo.region" content="PA" />
+        <meta name="geo.placename" content="Panamá" />
+        <meta name="theme-color" content="#000000" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Portafolio de Proyectos",
+            "description": "Portafolio de proyectos de Jhorman Nieto, desarrollador Full Stack en Panamá.",
+            "url": "https://jhorman.com/#/projects",
+            "creator": {
+              "@type": "Person",
+              "name": "Jhorman Nieto",
+              "sameAs": [
+                "https://github.com/jhorman9",
+                "https://www.linkedin.com/in/jhormandev/"
+              ]
+            },
+            "hasPart": [
+              {"@type": "WebPage", "name": "Menú Digital"},
+              {"@type": "WebPage", "name": "Constructora"},
+              {"@type": "WebPage", "name": "Menú Digital Azumi"},
+              {"@type": "WebPage", "name": "E-commerce"},
+              {"@type": "WebPage", "name": "Aikikai"},
+              {"@type": "WebPage", "name": "Código"}
+            ]
+          })}
+        </script>
       </Helmet>
       <h1 className="title">PORTAFOLIO DE IMPLEMENTACIONES</h1>      
       <div className="project-page-portfolio">

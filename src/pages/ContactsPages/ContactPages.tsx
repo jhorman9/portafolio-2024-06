@@ -52,10 +52,48 @@ export const ContactPages = () => {
     <>
       <Helmet>
         <title>Contacto - Jhorman Nieto P</title>
-        <link rel="canonical" href="https://jhorman.com/contact" />
-        <meta name="description" content="Jhorman Nieto - Desarrollador Full Stack..." />
-        <meta name="keywords" content="Desarrollador Full Stack, HTML, CSS, JavaScript..." />
+        <link rel="canonical" href="https://jhorman.com/#/contact" />
+        <meta name="description" content="Página de contacto de Jhorman Nieto, desarrollador Full Stack en Panamá. Ponte en contacto para proyectos, colaboraciones o consultas profesionales." />
+        <meta name="keywords" content="Contacto, Jhorman Nieto, Desarrollador Full Stack, Panamá, Email, Teléfono, Portafolio, Proyectos" />
         <meta name="author" content="Jhorman Nieto" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Contacto - Jhorman Nieto P" />
+        <meta property="og:description" content="Página de contacto de Jhorman Nieto, desarrollador Full Stack en Panamá. Ponte en contacto para proyectos, colaboraciones o consultas profesionales." />
+        <meta property="og:url" content="https://jhorman.com/#/contact" />
+        <meta property="og:site_name" content="Jhorman Nieto - Portafolio" />
+        <meta property="og:image" content="https://jhorman.com/assets/logo-desktop-white-Cy8VoD5d.svg" />
+        <meta property="og:locale" content="es_ES" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contacto - Jhorman Nieto P" />
+        <meta name="twitter:description" content="Página de contacto de Jhorman Nieto, desarrollador Full Stack en Panamá. Ponte en contacto para proyectos, colaboraciones o consultas profesionales." />
+        <meta name="twitter:image" content="https://jhorman.com/assets/logo-desktop-white-Cy8VoD5d.svg" />
+        <meta name="twitter:creator" content="@Jhorman1D" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="content-language" content="es" />
+        <meta name="geo.region" content="PA" />
+        <meta name="geo.placename" content="Panamá" />
+        <meta name="theme-color" content="#000000" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contacto Jhorman Nieto",
+            "description": "Página de contacto de Jhorman Nieto, desarrollador Full Stack en Panamá.",
+            "url": "https://jhorman.com/#/contact",
+            "contactOption": [
+              {"@type": "ContactPoint", "telephone": "+50765961547", "contactType": "Soporte"},
+              {"@type": "ContactPoint", "email": "jhorman.nieto@gmail.com", "contactType": "Consultas"}
+            ],
+            "sameAs": [
+              "https://github.com/jhorman9",
+              "https://www.linkedin.com/in/jhormandev/",
+              "https://www.instagram.com/jsnp97/",
+              "https://x.com/Jhorman1D"
+            ]
+          })}
+        </script>
       </Helmet>
 
       <section className="contact">
