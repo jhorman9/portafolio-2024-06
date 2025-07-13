@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jhorman.com/sitemap.xml
+
+# Bloquear carpetas internas y archivos sensibles
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /package.json
+Disallow: /tsconfig.json
+Disallow: /tsconfig.node.json
+Disallow: /vite.config.ts
+Disallow: /README.md
+Disallow: /contact.php
+
+# Permitir recursos públicos
+Allow: /public/
+
+# Reglas para bots específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Crawl-delay para bots agresivos
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
