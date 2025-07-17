@@ -75,7 +75,13 @@ export const ProjectsPage = () => {
       <div className="project-page-portfolio">
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={porkKingJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={porkKingJPG}
+              alt="Captura del proyecto Men\u00fa Digital Porkking"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>Menú Digital</h2>
@@ -90,7 +96,13 @@ export const ProjectsPage = () => {
         </div>
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={cocolpanJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={cocolpanJPG}
+              alt="Captura del proyecto Constructora Cocolpan"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>Constructora</h2>
@@ -106,7 +118,13 @@ export const ProjectsPage = () => {
         </div>
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={azumiJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={azumiJPG}
+              alt="Captura del proyecto Men\u00fa Digital Azumi"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>Menú Digital</h2>
@@ -120,7 +138,13 @@ export const ProjectsPage = () => {
         </div>
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={ecommerceJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={ecommerceJPG}
+              alt="Captura del proyecto E-commerce"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>E-commerce</h2>
@@ -135,7 +159,13 @@ export const ProjectsPage = () => {
         </div>
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={aikikairdJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={aikikairdJPG}
+              alt="Captura del proyecto Aikikai"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>Aikikai</h2>
@@ -149,7 +179,13 @@ export const ProjectsPage = () => {
         </div>
         <div className="portfolio-item">
           <div className="portfolio-item_image">
-            <img src={codigoJPG} alt="Proyecto de porking" width={300} height={300} />
+            <img
+              src={codigoJPG}
+              alt="Captura del proyecto C\u00f3digo"
+              width={300}
+              height={300}
+              loading="lazy"
+            />
           </div>
           <div className="portfolio-item_description">
             <h2>Código</h2>
