@@ -59,6 +59,17 @@ export const ProjectPageById = () => {
       image: "https://jhorman.com/og-image.jpg"
     };
 
+    const projectComponents: Record<number, React.FC> = {
+      1: PorkingProjectComponent,
+      2: CocolpanProjectComponent,
+      3: AzumiProjectComponent,
+      4: EcommerceProjectComponent,
+      5: AikikaiProjectComponent,
+      6: CodigoProjectComponent
+    };
+
+    const SelectedComponent = projectComponents[projectId];
+
     return (
         <section className="project-father">
             <Helmet>
@@ -107,21 +118,7 @@ export const ProjectPageById = () => {
             <div className="container">
                 <button className="btn-primary" onClick={() => navigate("/projects")}>Atrás</button>
                     {
-                        projectId === 1 ? (
-                            <PorkingProjectComponent />
-                        ) : projectId === 2 ? (
-                            <CocolpanProjectComponent />
-                        ) : projectId === 3 ? (
-                            <AzumiProjectComponent />
-                        ) : projectId === 4 ? (
-                            <EcommerceProjectComponent />
-                        ) : projectId === 5 ? (
-                            <AikikaiProjectComponent />
-                        ) : projectId === 6 ? (
-                            <CodigoProjectComponent />
-                        ) : ( 
-                            <p>Proyecto no encontrado</p>
-                        )
+                      SelectedComponent ? <SelectedComponent /> : <p>Proyecto no encontrado</p>
                     }
             </div>
         </section>

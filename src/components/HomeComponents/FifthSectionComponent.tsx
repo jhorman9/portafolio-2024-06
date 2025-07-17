@@ -27,7 +27,7 @@ export const FifthSectionComponent = () => {
             </li>
             <li className='home-card'>
               <div className='home-image'>
-                <img src={solvingsSVG} alt="Consultoría Técnica" width={170} height={150} />
+              <img src={solvingsSVG} alt="Solución de problemas" width={170} height={150} />
               </div>
               <div className='home-body'>
                 <h3>Solución de Problemas</h3>
@@ -39,7 +39,7 @@ export const FifthSectionComponent = () => {
             </li>
             <li className='home-card'>
               <div className='home-image'>
-                <img src={performanceSVG} alt="Consultoría Técnica" width={170} height={150} />
+              <img src={performanceSVG} alt="Optimización de rendimiento" width={170} height={150} />
               </div>
               <div className='home-body'>
                 <h3>Optimización de Rendimiento</h3>
@@ -51,7 +51,7 @@ export const FifthSectionComponent = () => {
             </li>
             <li className='home-card'>
               <div className='home-image'>
-                <img src={updateManteinanceSVG} alt="Consultoría Técnica" width={170} height={150} />
+              <img src={updateManteinanceSVG} alt="Mantenimiento y actualización" width={170} height={150} />
               </div>
               <div className='home-body'>
                 <h3>Mantenimiento y Actualización</h3>
