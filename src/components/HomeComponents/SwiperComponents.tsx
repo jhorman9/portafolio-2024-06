@@ -38,37 +38,37 @@ export const SwiperComponents = () => {
     className="mySwiper"
   >
     <SwiperSlide>
-      <Link to='https://porkking.netlify.app/' target='_blank'>
+      <Link to='https://porkking.netlify.app/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de porking panamá' loading='lazy' width={100} height={100} alt='Imagen de porking panamá' src={porkKingJPG} />      
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://azumipty.netlify.app/' target='_blank'>
+      <Link to='https://azumipty.netlify.app/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de azumi panamá' loading='lazy' width={100} height={100} alt='Imagen de Azumi Panamá' src={azumiJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://cocolpan.com/' target='_blank'>
+      <Link to='https://cocolpan.com/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de cocolpan panamá' loading='lazy' width={100} height={100} alt='Imagen de Cocolpan Panamá' src={cocolpanJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://codigodeprogramacion.netlify.app/' target='_blank'>
+      <Link to='https://codigodeprogramacion.netlify.app/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de códigos de programación' loading='lazy' width={100} height={100} alt='Imagen de Azumi Panamá' src={codigoJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://generatorcss-jhorman.netlify.app/' target='_blank'>
+      <Link to='https://generatorcss-jhorman.netlify.app/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de custom code' loading='lazy' width={100} height={100} alt='Imagen de custom code' src={customCodeJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='https://aikikaird.org/' target='_blank'>
+      <Link to='https://aikikaird.org/' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de aikido república dominicana' loading='lazy' width={100} height={100} alt='Imagen de aikido república dominicana' src={aikikairdJPG} />
       </Link>
     </SwiperSlide>
     <SwiperSlide>
-      <Link to='#' target='_blank'>
+      <Link to='#' target='_blank' rel="noopener noreferrer">
         <img title='Imagen de CRUD node + express' loading='lazy' width={100} height={100} alt='Imagen de CRUD node + express' src={crudJPG} />
       </Link>
     </SwiperSlide>

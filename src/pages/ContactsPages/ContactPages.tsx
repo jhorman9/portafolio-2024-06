@@ -101,10 +101,10 @@ export const ContactPages = () => {
         <ul className="contact-info">
           <li className="contact-info_section"><i className="fa-solid fa-location-dot"></i><p><a>Panamá, Ciudad de Panamá</a></p></li>
           <li className="contact-info_section"><a href="tel:50765961547" className="contact-info-link"><i className="fa-solid fa-phone"></i><span>+507 6596-1547</span></a></li>
-          <li className="contact-info_section"><a href="https://www.instagram.com/jsnp97/" target="_blank" className="contact-info-link"><i className="fa-brands fa-instagram"></i><span>Instagram</span></a></li>
-          <li className="contact-info_section"><a href="https://www.linkedin.com/in/jhormandev/" target="_blank" className="contact-info-link"><i className="fa-brands fa-linkedin"></i><span>LinkedIn</span></a></li>
-          <li className="contact-info_section"><a href="https://x.com/Jhorman1D" target="_blank" className="contact-info-link"><i className="fa-brands fa-x-twitter"></i><span>X (Antiguo Twitter)</span></a></li>
-          <li className="contact-info_section"><a href="https://github.com/jhorman9" target="_blank" className="contact-info-link"><i className="fa-brands fa-github"></i><span>Github</span></a></li>
+          <li className="contact-info_section"><a href="https://www.instagram.com/jsnp97/" target="_blank" rel="noopener noreferrer" className="contact-info-link"><i className="fa-brands fa-instagram"></i><span>Instagram</span></a></li>
+          <li className="contact-info_section"><a href="https://www.linkedin.com/in/jhormandev/" target="_blank" rel="noopener noreferrer" className="contact-info-link"><i className="fa-brands fa-linkedin"></i><span>LinkedIn</span></a></li>
+          <li className="contact-info_section"><a href="https://x.com/Jhorman1D" target="_blank" rel="noopener noreferrer" className="contact-info-link"><i className="fa-brands fa-x-twitter"></i><span>X (Antiguo Twitter)</span></a></li>
+          <li className="contact-info_section"><a href="https://github.com/jhorman9" target="_blank" rel="noopener noreferrer" className="contact-info-link"><i className="fa-brands fa-github"></i><span>Github</span></a></li>
         </ul>
 
           <form className="contact-form" onSubmit={handleSubmit} ref={formRef}>

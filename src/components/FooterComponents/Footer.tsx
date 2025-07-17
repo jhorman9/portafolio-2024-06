@@ -39,7 +39,7 @@ export const Footer = () => {
           <h3>Contactos</h3>
           <ul>
             <li><a href="mailto:softwaredeveloper@jhorman.com">softwaredeveloper@jhorman.com</a></li>
-            <li><Link to="https://wa.link/e77f4c" target='_blank'>+507 6596-1547</Link></li>
+            <li><Link to="https://wa.link/e77f4c" target='_blank' rel="noopener noreferrer">+507 6596-1547</Link></li>
             <li><Link to="/contact">Formulario de contacto</Link></li>
           </ul>
         </div>
