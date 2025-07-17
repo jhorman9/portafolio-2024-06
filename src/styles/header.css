@@ -124,3 +124,10 @@ header .mobile-navbar ul{
     padding-top: 14px;
     padding-bottom: 14px;
 }
+
+header .header-toggle{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
