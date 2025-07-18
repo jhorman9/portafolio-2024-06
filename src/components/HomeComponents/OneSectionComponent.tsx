@@ -23,7 +23,14 @@ export const OneSectionComponent = () => {
         </button>
         </div>
         <div>
-        <img src={homeIcon4} alt="Icono de inicio de Jhorman Nieto desarrollador de software" title='Icono de inicio de Jhorman Nieto desarrollador de software' loading='lazy' width={440} height={431}/>
+        <img
+          src={homeIcon4}
+          alt="Icono de inicio de Jhorman Nieto desarrollador de software"
+          title="Icono de inicio de Jhorman Nieto desarrollador de software"
+          loading="lazy"
+          width={464}
+          height={397}
+        />
         </div>
     </section>
   )
